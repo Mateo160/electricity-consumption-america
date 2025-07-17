@@ -4,19 +4,27 @@
 
 Description
 
-This project explores electricity consumption across countries in the Americas. It aims to identify patterns, highlight the top-consuming countries, and examine the relationship between consumption, population, and energy sources.
+This project explores electricity consumption across countries in the Americas. Specifically, the most consumer countries in Americas , per Total consumption (KWh) and Per Capita (KWh). 
 
-Objectives (To update)
+Objectives
 
   Analyze per capita electricity consumption by country
   
-  Identify countries with the highest and lowest consumption
+  Identify countries with the highest consumption
   
-  Explore relationships with population size and dominant energy type
+  Explore relationships with GDP
   
   Create visualizations to summarize findings
 
 Source: 
+
+Per Capita Energy Consumption (KWh), 2024. Source: https://ourworldindata.org/grapher/per-capita-electricity-demand?utm_source=chatgpt.com
+
+Population, 2024. Source: https://population.un.org/wpp/downloads?folder=Standard%20Projections&group=Most%20used
+
+Total Energy Consumption (KWh) Source: 4 by 5. (KWh per capita by Population)
+
+GDP, 2024. Source: https://data.worldbank.org/indicator/NY.GDP.MKTP.CD 
 
 Format: CSV (cleaned version included in data/)
 
@@ -24,8 +32,12 @@ Fields used:
 
   Country
   
-  Population
-  
   Electricity consumption per capita (kWh)
   
+  Population
+  
+  Electricity consumption total (kWh)
+  
   GDP
+
+  
